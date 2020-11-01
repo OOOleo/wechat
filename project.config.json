@@ -37,7 +37,7 @@
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.0.4",
+  "libVersion": "2.13.2",
   "appid": "wx201e8e73ecf410cb",
   "projectname": "Clocks",
   "debugOptions": {
