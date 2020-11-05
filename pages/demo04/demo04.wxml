@@ -1,0 +1,20 @@
+<!--pages/demo04/demo04.wxml-->
+
+<!--
+  输入框绑定函数作为参数
+  e.detail.value
+  this.data.num=e.detail.value
+-->
+<input type="text" bindinput="handleInput"/>
+
+<!--
+  点击事件
+  1 bindtap
+  2 无法在小程序当中的事件直接传参
+  3 通过自定义属性的方式来传递参数
+-->
+<button bindtap="handletap" data-operation="{{1}}">+</button>
+<button bindtap="handletap" data-operation="{{-1}}">-</button>
+<view>
+  {{num}}
+</view>

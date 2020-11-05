@@ -1,0 +1,8 @@
+/* pages/demo07/demo07.wxss */
+/* 定义less变量*/
+text {
+  color: yellow;
+}
+view .vie1 text {
+  color: red;
+}

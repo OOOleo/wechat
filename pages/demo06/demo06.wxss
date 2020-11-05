@@ -1,0 +1,5 @@
+/* pages/demo06/demo06.wxss */
+/* 引入的代码通过@import引入*/
+/* 只能是相对路径*/
+/*样式导入*/
+@import "../styles/common.wxss";

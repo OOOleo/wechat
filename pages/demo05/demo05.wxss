@@ -1,0 +1,23 @@
+/* pages/demo05/demo05.wxss */
+
+/* 小程序中不需要引入标签文件
+  需要将页面中某些元素的单位  由px改成rpx
+  1 设计稿  750rpx
+  1 px = 1 rpx
+
+  3 存在一个设计稿  宽度414 或者 未知 page
+  page px = 750 rpx
+  1 px = 750 rpx / page
+  100px = 750 rpx * 100 / page
+  假设 page = 375px
+*/
+view{
+  height: 200rpx;
+  font-size: 40rpx;
+  background-color: aqua;
+/*
+  width: 750 rpx*100/375;
+  750 rpx 运算符两边都不要有空格
+  */
+  width: calc(750rpx*100/375);
+}
