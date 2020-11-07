@@ -1,0 +1,42 @@
+<!--
+    button标签
+    1 size 控制按钮的大小
+     1 default 默认大小
+     2 mini 小尺寸
+    2 type  用来控制按钮的颜色
+     1 default 灰色
+     2 primary 绿色
+     3 warn  红色
+    3 plain 按钮是否镂空  背景色透明
+    4 loading  等待动画
+
+-->
+<button >默认按钮</button>
+<button size="mini">默认按钮</button>
+<button type="primary">primary按钮</button>
+<button type="warn">warn按钮</button>
+<button type="warn" plain>plain按钮</button>
+<button type="primary" loading>primary按钮</button>
+
+
+<!--
+    button开发能力
+    open-type
+    1 contact  直接打开客服对话功能  需要在后台进行配置
+    2 share  转发当前的小程序到微信朋友中  不能分享到朋友圈
+    3 getPhoneNumber  获取当前用户的手机号码信息
+        绑定一个事件  bindgetphonenumber
+        获取到的信息已经加密过了
+    4 getUserinfo 获取用户信息
+    5 lunchApp 直接打开app
+    6 openSetting 打开小程序内置的授权页面
+    7 feedback
+-->
+<button open-type="contact">contact</button>
+<button open-type="share">share</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">getUserInfo</button>
+<button open-type="lanchApp">lunchApp</button>
+<button open-type="openSetting">openSetting</button>
+<button open-type="feedback">feedback</button>
+
